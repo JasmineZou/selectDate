@@ -1,0 +1,15 @@
+# ignore node/grunt dependency directories
+node_modules/
+node_modules2/
+.idea/
+
+# project system generated files
+package.json
+webpack.*.js
+*.log
+.svn/
+./js
+
+
+# ignore OS generated files
+.DS_Store

@@ -1,0 +1,68 @@
+.select-date{
+  position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background: rgba(0,0,0,.4);
+    /*display: none*/
+}
+.select-date-content{
+  height: 18rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    z-index: 1222;
+    width: 100%;
+}
+.select-date-title{
+  padding:1rem 1.5rem;
+  border-bottom: .1rem solid #efefef;
+  margin-bottom: 2rem;
+}
+.select-date-title a{
+  font-size: 1.4rem;
+}
+.select-date-title a:first-child{
+  color: #333;
+}
+.select-date-title a:last-child{
+  float: right;
+  color: #4497ff;
+}
+.date-selected{
+  height: 3rem;
+  border-top:.1rem solid #efefef;
+  border-bottom:.1rem solid #efefef;
+  width: 100%;
+  /*margin-top: 2rem;*/
+}
+.select-date-body{
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+.select-year{
+  position: absolute;
+  top:0;
+  width: 50%;
+  padding: 0;
+  margin:0;
+}
+.select-year li{
+  height: 3rem;
+  line-height: 3rem;
+  color: #999;
+  font-size: 2rem;
+  font-weight: 300;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.select-month{
+  right: 0;
+}
+.select-year .active{
+    color: #333;
+}
